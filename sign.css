@@ -33,13 +33,11 @@
 }
 
 .signature-link {
-  margin-left: 10px;
   margin-top: -3px;
 }
 
 .signature-title {
-  margin: 0px;
-  margin-bottom: 3px;
+  margin: 0px 10px 3px 0px;
   color: #122768;
   font-size: 18px;
 }
