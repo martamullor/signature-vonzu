@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Basier Circle Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Basier Circle Regular"),
+    url("BasierCircle-Regular.woff") format("woff");
+}
+
+* {
+  font-family: "Basier Circle Regular";
+}
+
+.signature-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 430px;
+}
+
+.signature-logo {
+  width: 90px;
+  height: 90px;
+}
+
+.signature-text-container {
+  flex-grow: 1;
+  margin-left: 30px;
+}
+
+.signature-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.signature-title-container > svg {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.signature-title {
+  margin: 0px;
+  margin-bottom: 3px;
+  color: #122768;
+  font-size: 18px;
+}
+
+.signature-text {
+  font-size: 12px;
+  margin: 3px 0px;
+  color: #122768;
+}
+
+.grey {
+  color: #8b8b8b;
+}
