@@ -32,9 +32,9 @@
   align-items: center;
 }
 
-.signature-title-container > svg {
-  margin-left: 15px;
-  cursor: pointer;
+.signature-linkedin {
+  margin-left: 10px;
+  margin-top: -3px;
 }
 
 .signature-title {
